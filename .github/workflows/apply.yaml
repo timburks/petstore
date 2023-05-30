@@ -20,6 +20,8 @@ on:
   push:
     branches: [ main ]
     tags: [ 'v*.*.*' ] # semver release
+  pull_request:
+    branches: [ main ]
 
 jobs:
 
